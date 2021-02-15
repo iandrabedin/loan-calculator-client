@@ -1,0 +1,35 @@
+@import '../../../styles/_vars';
+
+.button {
+  color: var(--color-white);
+  background-color: transparent;
+  font-size: 16px;
+  border-radius: 4px;
+  height: 36px;
+  padding: 0 3rem;
+  cursor: pointer;
+  border: 1px solid var(--color-white);
+
+  &:hover,
+  &:focus,
+  &.focus {
+    color: var(--color-black);
+    background-color: var(--color-white);
+  }
+
+  &:disabled,
+  &.disabled {
+    color: var(--color-white);
+    background-color: var(--color-grey);
+    border: 1px solid var(--color-grey);
+    cursor: default;
+  }
+}
+
+// Mobile
+@media (max-width: 767px) {
+  .button {
+    width: 100%;
+    margin: 16px 0;
+  }
+}

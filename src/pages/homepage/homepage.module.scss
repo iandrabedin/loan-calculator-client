@@ -1,0 +1,21 @@
+.homepage {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 40px;
+
+  &__title {
+    color: var(--color-white);
+  }
+}
+
+.card {
+  background-color: var(--color-white);
+  height: fit-content;
+  border-radius: 4px;
+  padding: 20px;
+}
