@@ -9,7 +9,7 @@ interface TableProps {
   };
 }
 
-export const Table = (props: TableProps) => {
+const Table = (props: TableProps) => {
   const {offer} = props;
 
   return (
@@ -35,3 +35,5 @@ export const Table = (props: TableProps) => {
     </table>
   );
 };
+
+export default Table;

@@ -1,1 +1,3 @@
-export {Calculator} from './calculator';
+import Calculator from './calculator';
+
+export default Calculator;
