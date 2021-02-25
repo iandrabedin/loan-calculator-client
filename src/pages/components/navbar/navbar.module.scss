@@ -1,0 +1,9 @@
+@import '../../../styles/_vars';
+
+.nav {
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}

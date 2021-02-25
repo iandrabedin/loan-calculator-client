@@ -17,7 +17,7 @@ interface CalculatorProps {
   offerAction: (amountValue: number, termValue: number) => void;
 }
 
-export const Calculator = (props: CalculatorProps) => {
+const Calculator = (props: CalculatorProps) => {
   const {amountInterval, termInterval, offerAction} = props;
   const [amountValue, setAmountValue] = useState(amountInterval?.defaultValue);
   const [termValue, setTermValue] = useState(termInterval?.defaultValue);
@@ -59,3 +59,5 @@ export const Calculator = (props: CalculatorProps) => {
     </Fragment>
   );
 };
+
+export default Calculator;

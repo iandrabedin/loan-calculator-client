@@ -2,9 +2,7 @@
   width: 100vw;
   height: 100vh;
   background-color: var(--color-primary);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
   box-sizing: border-box;
   padding: 40px;
 
@@ -13,9 +11,20 @@
   }
 }
 
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 80px;
+}
+
 .card {
   background-color: var(--color-white);
   height: fit-content;
   border-radius: 4px;
   padding: 20px;
+}
+
+.link {
+  margin-top: 30px;
 }

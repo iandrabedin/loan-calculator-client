@@ -1,6 +1,5 @@
 import React, {Fragment} from 'react';
 import styles from './slider.module.scss';
-
 interface SliderProps {
   id: string;
   title: string;
@@ -12,7 +11,7 @@ interface SliderProps {
   onChange?: (e: React.FormEvent<HTMLInputElement>) => void;
 }
 
-export const Slider = (props: SliderProps) => {
+const Slider = (props: SliderProps) => {
   const {id, title, min, max, step, value, icon, onChange} = props;
 
   return (
@@ -46,3 +45,5 @@ export const Slider = (props: SliderProps) => {
     </Fragment>
   );
 };
+
+export default Slider;
