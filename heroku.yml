@@ -1,4 +1,4 @@
 # Setup client container
 build:
   docker:
-    web: ./client/Dockerfile
+    web: ./Dockerfile
